@@ -11,7 +11,7 @@ int main() {
         if(n==0) break;
         soma=0;
         while(n!=1) {
-            while(n%3!=0) n++;
+            if(n%3>0) n+=2;
             n/=3;
             soma+=n;
         }
