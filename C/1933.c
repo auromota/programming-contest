@@ -7,6 +7,6 @@
 int main() {
 	int a, b;
 	scanf("%d %d", &a, &b);
-    printf("%d\n", a==b?a:a>b?a:b);
-    return 0;
+	printf("%d\n", a==b?a:a>b?a:b);
+	return 0;
 }
