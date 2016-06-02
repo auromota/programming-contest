@@ -1,5 +1,7 @@
 /*
 	Author: Auro Mota <auro@blueorc.com>
+	This problem has a small set of answers, so I've done a hard-coded version to improve its execution time,
+	which can be found on https://github.com/auromota/uri-online-judge/blob/master/C/1164-2.c
 */
 
 #include <stdio.h>
