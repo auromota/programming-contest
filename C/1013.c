@@ -1,0 +1,12 @@
+/*
+	Author: Auro Mota <auro@blueorc.com>
+*/
+
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+    scanf("%d%d%d",&a,&b,&c);
+    printf("%d eh o maior\n",a>b?a>c?a:c:b>c?b:c);
+    return 0;
+}
