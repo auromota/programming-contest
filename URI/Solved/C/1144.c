@@ -5,22 +5,14 @@
 #include <stdio.h>
 
 int main() {
-    int a, z, i=1, j=1, k=1, auxj=2, auxk=1, auxk2=1;
-    scanf("%d", &a);
-    a*=2;
-    for(z=0;z<a;z++) {
-        printf("%d %d %d\n", i, j, k);
-        if(z%2==0) {
-            j++;
-            k++;
-        } else {
-			i++;
-            j+=auxj;
-            auxj+=2;
-            k+=6*auxk;
-            auxk2++;
-            auxk+=auxk2;
-        }
+    int n, a, b, c, i;
+    int x, y;
+    scanf("%d", &n);
+    for(i=1; i<=n; i++) {
+        x = i*i;
+        y = i*i*i;
+        printf("%d %d %d\n", i, x, y);
+        printf("%d %d %d\n", i, x+1, y+1);
     }
     return 0;
 }
